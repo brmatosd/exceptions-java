@@ -26,8 +26,8 @@ public class Program {
 		} else {
 			Reservation reservation = new Reservation(number, checkIn, checkOut);
 			System.out.println(reservation);
-			
-			System.out.println();			
+
+			System.out.println();
 			System.out.println("Enter data to update the reservation:");
 			System.out.print("Room number: ");
 			number = sc.nextInt();
@@ -41,9 +41,9 @@ public class Program {
 				System.out.println("Error in reservation: " + error);
 			} else {
 				System.out.println(reservation);
-			}			
-			
 			}
+
+		}
 		sc.close();
 	}
 
